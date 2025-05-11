@@ -1,0 +1,78 @@
+
+body {
+    background-color:  hsl(212, 45%, 89%);
+    
+ 
+}
+
+.qrbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+    max-height: 499px;
+    max-width: 320px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: white;
+    text-decoration: center;
+    border-radius: 20px;
+}
+
+img {
+   
+    margin: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 5%;
+}
+
+.text {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: Outfit;
+    font-size: 22px;
+}
+
+p {
+    color:  hsl(216, 15%, 48%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: Outfit;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.attribution {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
